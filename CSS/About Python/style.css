@@ -1,0 +1,260 @@
+.parent{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+
+}
+.bigBlue{
+flex:5 ;
+background-color:#245076 ;
+display: flex;
+flex-direction: column;
+
+}
+.headerANDmenue{
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    
+}
+img{
+    width: 25%;
+    height:100% ;
+    margin-left: 5%;
+}
+.table{
+   
+    width: 83%;
+    flex: 4;
+    
+    margin-left: 10%;
+    display: flex;
+
+
+}
+ul li a{
+    color: #ffffff;
+    font-size: large;
+    margin-bottom:10px ;
+     font-weight: 0;
+}
+.firstDescription{
+    width: 78%;
+    text-align: center;
+    margin-left: 13%;
+    margin-top: 10px;
+    color: #ffffff;
+    
+}
+.secondDescription{
+    width:37%;
+    text-align: center;
+    font-size: larger;
+    color: rgb(240, 192, 71);
+    text-align: center;
+    
+    margin-left: 33%;
+    margin-top: 10px;
+    font-style: italic;
+}
+li{
+    margin-bottom: 10px;
+}
+p{
+    text-align: center;
+}
+.points{
+    flex: 1;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 15px;
+   
+}
+ul{
+    display: table;
+  margin: auto auto;
+}
+.points ul {
+    list-style: none; /* Remove HTML bullets */
+    padding: 0;
+    margin: 0;
+  }
+  
+/* .points ul  li { 
+    padding-left: 16px; 
+  } */
+  
+.points ul  li::before {
+    content: ">>"; /* Insert content that looks like bullets */
+    padding-right: 8px;
+    color: yellow; /* Or a color you prefer */
+  }
+.discreptions{
+    flex: 4;
+
+font-size:large;
+}
+.menu{
+    display: flex;
+flex: 2;
+background-color: #437cad;
+width: 83%;
+margin-left: 10%;
+border-radius: 8px;
+align-items: center;
+justify-content: space-evenly;
+
+}
+.menu a{
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: x-large;
+    
+}
+.searchBox,.buttonShape{
+    margin-top: 6%;
+}
+.searchBox{
+   
+    width: 55%;
+    height: 50%;
+    margin-left: 13%;
+    text-align: center;
+   
+
+}
+.buttonShape{
+    width: 18%;
+    height: 50%;
+    align-self: auto;
+    background-color: #245076;
+    
+
+}
+.header{
+    flex: 5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+
+}
+.searh{
+    
+    width: 20%;
+    height: 60%;
+    background-color: #444444;
+    margin-right: 5%;
+    color: #ffffff;
+    align-items: center;
+    border-radius: 15px;
+}
+
+
+.white{
+    width: 100%;
+flex: 2.5;
+background-color:#ffffff ;
+display: flex;
+
+}
+
+.firstBlock{
+   
+    width: 41%;
+    height: 100%;
+    margin-right: 20px;
+margin-left: 10%;
+    text-align: center;
+    color:black;
+    
+    font-size: larger;
+}
+.secondBlock{
+    width: 41%;
+    height: 100%;
+    
+    font-size: larger;
+    margin: 0;
+   
+    color:black;
+}
+.firstBlock p  {
+    width:70%;
+    font-weight: 0;
+    margin-top: 0%;
+    
+    padding-top: 0%;
+    
+    }
+    .firstBlock ul a{
+        text-decoration: underline;
+        color: rgba(7, 124, 192, 0.61);
+    }
+    span{
+        color: #437cad;
+    }
+    .secondBlock p{
+        width:65%;
+        font-weight: 0;
+        margin-top: 0%;
+        
+        padding-top: 0%;
+    }
+    ul{
+        margin: 0%;
+    }
+    .shiftLeft{
+        margin-left: 20px;
+    }
+    .secondBlock ul  a{
+        text-align: center;
+        color: rgba(7, 124, 192, 0.61); ;
+    }
+    .secondBlock ul {
+        text-align: center;
+        margin-left: 8%;
+    
+    }
+    .firstBlock ul{
+        text-align: center;
+        margin-left: 8%;
+    
+    }
+
+.smallBlue{
+    flex: 1;
+text-align: center;
+padding-top: 2%;
+padding-bottom: 2%;
+background-image: linear-gradient(to bottom,#245076   , #4081b9);
+}
+
+html, 
+body {
+    height: 110%;
+}
+.theirdDescription{
+    font-size: large;
+    color: #ffffff;
+    margin-left: 50%;
+    margin-top: 5px;
+}
+.blueRectangle{
+    width: 100%;
+    height: 2%;
+    background-color:#437cad ;
+    margin-top: 1%;
+}
+ .smallBlue a{
+    text-decoration: none;
+    font-size: larger;
+    color: #669ac8;
+    margin-right: 10%;
+
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding:1px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form>
+        <div>
+            <label><b>First Name: *</b></label>
+            <input type="text" style="width: 200px; height: 25px;" required="true">
+        </div><br>
+        
+        <div>
+            <label><b>Last Name: *</b></label>
+            <input type="text" style="width: 200px; height: 25px;" required="true">
+        </div><br>
+        <div>
+            <label><b>Email Address: *</b></label>
+            <input type="email" style="width: 200px; height: 25px;" required="true">
+        </div><br>
+        <div>
+            <label><b>Password: *</b></label>
+            <input type="password" style="width: 200px; height: 25px;" required="true">
+        </div><br>
+        <div>
+            <label><b>Confirm password: *</b></label>
+            <input type="password" style="width: 200px; height: 25px;" required="true">
+        </div><br>
+        <div>
+            <label> <b>Gender Identity:</b></label>
+        </div><br>
+        <div>
+            <input type="radio" name="grnder" id="male" >
+            <label for="male"><b>Male</b></label>
+            <input type="radio" name="grnder" id="female" >
+            <label for="female"><b>Female</b></label>
+            <input type="radio" name="grnder" id="non" >
+            <label for="non"><b>Non-binary</b></label>
+            <input type="radio" name="grnder" id="no" >
+            <label for="no"><b>I prefare not to answer</b></label>
+        </div>
+        <div>
+            <label><b>A shortdescription about myself:</b></label><br>
+            <textarea rows="3" cols="30"></textarea>
+        </div>
+        <div>
+            <label><b>Favorite language:</b></label>
+            <select>
+                <option> Java Script</option>
+                <option>c</option>
+                <option>c++</option>
+                <option>python</option>
+            </select>
+        </div><br>
+        <input type="checkbox">
+        <label><b>Yes, I would like to receive periodic email updates</b></label><br>
+         <button>Create Account</button><br>
+         <label><b>* Indication a required fields</b></label>
+    </form>
+    
+</body>
+</html>

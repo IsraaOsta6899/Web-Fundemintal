@@ -1,0 +1,45 @@
+.container{
+    width: 400px;
+    height: 150px;
+    border: 4px solid black;
+    margin-top: 5%;
+    margin-left: 5%;
+    
+}
+h2,label,button{
+    font-family: cursive;
+    display: inline;
+    
+    width: 10%;
+    margin-right: 4%;
+    margin-top: 5%;
+    
+}
+h2{
+    margin-left: 5%;
+    margin-right: 20%;
+}
+
+p{   
+    font-family: cursive;
+    font-size:medium ;
+    margin-left: 5%;
+
+}
+button{
+    background-color: #ffd966;
+    width: 15%;
+    height: 20%;
+    text-align: center;
+    font-weight: bold;
+    font-size: medium;  
+}
+label{
+    font-weight: bold;
+    font-size: medium;
+
+}
+div{
+    justify-content: space-between;
+   
+}

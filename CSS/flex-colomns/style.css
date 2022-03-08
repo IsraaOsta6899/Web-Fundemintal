@@ -1,0 +1,28 @@
+.row{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+ 
+}
+.col1,.col2,.col3,.col4,.col5{
+    flex:1;
+    margin: 5px;
+    background-color: #659da1;
+    color: aliceblue;
+    
+    
+}
+
+.col3{
+    flex:2;
+}
+
+
+.col4{
+    flex:2;
+}
+.col5{
+    flex:3;
+}

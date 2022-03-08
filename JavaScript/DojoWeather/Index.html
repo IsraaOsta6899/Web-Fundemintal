@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <h1>DojoWeather</h1>
+        <div class="nav-links">
+            <a href="#" onclick=" alert ('You are clicked on Burbank link :) ');  ">Burbank</a>
+            <a href="#"  onclick="alert('you are clicked on Chicago link ');">Chicago</a>
+            <a href="#"  onclick="alert('you are clicked on Dallas link ');">Dallas</a>
+        </div>
+    </nav>
+    <section>
+        <h2>San Jose</h2>
+        <div class="tempereture">
+            <p>show tempereture in </p>
+            <select name="" id="" onchange="convertTemp(this)">
+                <option value=" °C"> °C</option>
+                <option value=" °F"> °F</option>
+                
+            </select>
+        </div>
+        
+    </section>
+    <div class="days">
+        <div class="Today">
+            <h2>Today</h2>
+            <div class="circle">
+                <img src="assets/some_rain.png" alt="rainy day">
+            </div>
+            <label for="">some rain</label>
+            <div class="tempAMandPM">
+                <label id="Morning1">24°</label>
+                <Label id="Evening1">18°</Label>
+            </div>
+              
+        </div>
+        <div class="Tomorrow">
+            <h2>Tomorrow</h2>
+            <div class="circle">
+                <img src="assets/some_sun.png" alt="rainy day">
+            </div>
+            <label for="">some sun</label>
+            <div class="tempAMandPM">
+                <label id="Morning2">27°</label>
+                <Label id="Evening2">19°</Label>
+            </div>
+        </div>
+        <div class="Friday">
+            <h2>Friday</h2>
+            <div class="circle">
+                <img src="assets/some_clouds.png" alt="rainy day">
+            </div>
+            <label for="">some clouds</label>
+            <div class="tempAMandPM">
+                <label id="Morning3">21°</label>
+                <label id="Evening3">16°</label>
+            </div>
+        </div>
+        <div class="Sunday">
+            <h2>Sunday</h2>
+            <div class="circle">
+                <img src="assets/some_sun.png" alt="rainy day">
+            </div>
+            <label for="">some sun</label>
+            <div class="tempAMandPM">
+                <label id="Morning4">26°</label>
+                <label id="Evening4">21°</label>
+            </div>
+        </div>
+       
+    </div>
+    <div class="cookies">
+        <img src="assets/cookie.png" alt="cookies image">
+        <div class="cookieMSG">
+            <h2>Stop! Cookie time</h2>
+            <p>We use cookies (sadly not thr edible ones) to personalize <br>
+            content and ads, to provide social media features and to <br>
+        analyse our traffic. <a href="#"> Read more...</a></p>
+        </div>
+        <button onclick="dismissMSG()">I Accept</button>
+
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

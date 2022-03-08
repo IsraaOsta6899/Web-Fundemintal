@@ -1,0 +1,42 @@
+.containercopy{
+    width: 950px;
+    background-color: silver;
+    margin: 0px auto;
+}
+.top-nav {
+    width: 1500px;
+    height: 150px;
+    background-color: green;
+}
+.side-nav {
+    height: 500px;
+    width: 280px;
+    margin-top: 20px;
+    background-color: blue;
+    margin-right:15px ;
+}
+.main {
+    height: 650px;
+    width: 1200px;
+    background-color: red;
+}
+.sub-content {
+    margin-top: 20px;
+    margin-left: 12px;
+    height: 300px;
+    width: 350px;
+    background-color: yellow;
+}
+#advertisement {
+    height: 120px;
+    width: 1080px;
+    margin-top: 50px;
+    margin-left: 15px;
+    background-color: purple;
+}
+body{
+    background-color: #c0c0c0;
+}
+div{
+    display: inline-block;
+}
