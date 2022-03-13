@@ -1,0 +1,27 @@
+insert into dojos (name) values ("ahmad");
+insert into dojos (name) values ("alaa");
+insert into dojos (name) values ("aya");
+----
+delete from dojos
+---
+insert into dojos (name) values ("israa");
+insert into dojos (name) values ("alaa");
+insert into dojos (name) values ("amani");
+---
+insert into ninjas (first_name,last_name,age,dojo_id) values ("ahmad", "usta",44,4);
+insert into ninjas (first_name,last_name,age,dojo_id) values ("mohammad", "usta",22,4);
+insert into ninjas (first_name,last_name,age,dojo_id) values ("aya", "usta",30,4);
+---
+insert into ninjas (first_name,last_name,age,dojo_id) values ("ali", "usta",44,5);
+insert into ninjas (first_name,last_name,age,dojo_id) values ("rawan", "usta",22,5);
+insert into ninjas (first_name,last_name,age,dojo_id) values ("duaa", "usta",30,5);
+---
+insert into ninjas (first_name,last_name,age,dojo_id) values ("jamal", "usta",44,6);
+insert into ninjas (first_name,last_name,age,dojo_id) values ("amal", "usta",22,6);
+insert into ninjas (first_name,last_name,age,dojo_id) values ("imad", "usta",30,6);
+----
+select * from ninjas where dojo_id=4
+---
+select * from ninjas where dojo_id=6
+----
+select * from ninjas where dojo_id=6 limit 1 offset 2
