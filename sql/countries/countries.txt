@@ -1,0 +1,16 @@
+use world;
+select country.name ,countrylanguage.Language,countrylanguage.Percentage from country join countrylanguage on country.Code=countrylanguage.CountryCode where countrylanguage.Language='Slovene' order by countrylanguage.Percentage desc ;
+------
+select country.Name , count(city.Name) as count_of_cities from country join city on country.Code=city.CountryCode group by city.CountryCode order by count_of_cities desc
+------
+select  city.Name, city.Population  from country join city on country.Code=city.CountryCode where country.Name='Mexico' and city.Population>500000 order by city.Population desc
+------
+select country.Name , countrylanguage.Language, countrylanguage.Percentage from country join countrylanguage on country.Code=countrylanguage.CountryCode where countrylanguage.Percentage>89.0 order by countrylanguage.Percentage desc
+------
+select country.name , country.Population , country.SurfaceArea from country where(country.SurfaceArea<501 and country.Population>100000)
+------
+select country.name , country.GovernmentForm, country.Capital , country.LifeExpectancy from country
+ where(country.GovernmentForm='Constitutional Monarchy' and country.Capital>200 and country.LifeExpectancy>75.0)
+------
+select country.name, city.Name ,city.District , city.Population from country join city on city.CountryCode = country.Code where (country.Name='Argentina' and city.District='Buenos Aires' and city.Population>500000) order by city.Population desc
+------
